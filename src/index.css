@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: sora;
+  font-style: normal;
+  src: url("./assets/fonts/Sora/static/Sora-Regular.ttf") format("ttf");
+}
+
+@theme {
+  --color-black-bg: #121212;
+  --color-gray-text: #8f8f92;
+  --font-display: "sora", sans-serif;
+}
